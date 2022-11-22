@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: auto;
+    text-decoration: none;
+    float: left;
+    padding: 5px;
+    width: 100%;
+
+    
+
+   
+}
+nav{
+    position: static;
+    width: 100%;
+    height: 0;
+}
+.nav-bar ul li{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 10px;
+    
+
+}
+
+
+.nav-bar ul li a{
+    text-decoration: none;
+    
+}
+.nav-bar ul li:hover{
+    background-color: blue;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.li-1{
+    padding-top: 7px;
+    color: white;
+
+}
+.text-1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.li-2{
+    float: right;
+}
+
+.carouselExampleControls img{
+    padding-top: 5px;
+    margin-left: 10px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    /* margin-left: 100px; */
+    text-align: center;
+
+}
+.talk{
+    border-radius: 9px;
+    color: white;
+    background-color: tomato;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cardd{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: white;
+    width: 100%;
+}
+.row-1{
+    margin-top: 50px;
+}
+.ram{
+    color: black;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.ramm{
+    color: black;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.ram:hover,
+.ramm:hover{
+    background-color: rgb(225, 89, 51);
+    color: aliceblue;
+}
+.col-sm-2{
+    border-radius: 9px;
+    margin-bottom: 30px;
+}
+
+
+.col-sm-2 p{
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.class{
+    color: white;
+    background-color: tomato;
+    padding: 10px 15px 10px 15px;
+    border-width: 0px;
+    border-radius: 5px;  
+}
+.nav-btn{
+    text-align: center;
+    
+}
+.btn-1{
+    padding: 10px;
+    margin: 10px;
+    border:1px solid rgb(63, 58, 58);
+    border-radius: 5px;
+}
+.btn-1:hover{
+    color: aliceblue;
+    background-color: rgb(225, 89, 51);
+}  
+.row-3{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.text p{
+    text-align: center;
+    color: rgb(43, 40, 40);
+    /* margin-left: 400px; */
+    font-size: 15px;
+    /* display:inline-block;
+    align-items: center;
+    justify-content: center; */
+}
+.h-1{
+    padding-top: 20px;
+    height: 200px;
+    background-color: rgb(92, 96, 96);
+    font-size: 50px;
+    
+    
+}
+.h-0{
+    margin: 30px;
+}
